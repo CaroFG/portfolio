@@ -9,59 +9,99 @@
 	<link rel="stylesheet" href="styles/custom.css">
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Karla|Ultra&display=swap" rel="stylesheet">
+  <!-- CDN Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
 </head>
 <body>
 
 	<!-- Navbar -->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#" >Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <nav class="navbar navbar-expand-lg text-light media">
+    <a class="navbar-brand" href="#" ><img src="images/logo_transparent.png" id="brandlogo" class="mr-3 media-body" style="width:100px"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="collapse navbar-collapse" id="navbarColor02">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search">
-            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>
+    <div class="collapse navbar-collapse" id="navbarColor02">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search">
+        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
 
 
   <!-- Jumbotron -->
+  
   <div class="container mt-3">
+    <div class="fond">
       <div class="jumbotron jumbotron-fluid">
         <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <h1><strong>Big</strong> Welcome Message</h1>
+          <p>Ingenious marketing copy. And some <em>more</em> ingenious marketing copy.</p> <p class="mr-4" align="right"><a href="#features" class="btn btn-lg bg-transparent">Learn more <span class="icon fa fa-arrow-circle-down"></span></a></p>
         </div>
       </div>
+    </div>
   </div>
 
 
+  
   <!-- Pictures -->
   <div class="container">
     <div class="row">
-     <div class="col-6"><img src="images/pink-model.jpg" class="img-fluid rounded float-left"  alt="..."></div>
-     <div class="col-6"><img src="images/man-red.jpg" class="img-fluid rounded float-right"  alt="..."> </div>
+     <div class="col col-6"><img src="images/pink-model.jpg" class="img-fluid rounded float-left"  alt="..."></div>
+     <div class="col col-6"><img src="images/man-red.jpg" class="img-fluid rounded float-right"  alt="..."> </div>
    </div>
-
  </div>
+
+ <!-- Footer -->
+ <footer class="footer mt-4">
+  <div class="container">
+    <div class="row">
+      <div class="col col-4 text-dark"> 
+        <ul class="pb-2">
+         <li>Conditions de vente</li>
+         <li>Suivi commande</li>
+         <li>Livraison</li>
+       </ul>
+
+     </div>
+     <div class="col col-4 text-dark text-center">
+      <i class="fab fa-twitter-square"></i>
+      <i class="fab fa-facebook ml-2"></i>
+      <i class="fab fa-instagram ml-2"></i>
+      <i class="fab fa-pinterest-square ml-2"></i>
+      <p class="mt-4"><i class="fas fa-globe"></i>  France</p>
+    </div>
+    <div class="col col-4">
+      <ul>
+        <li>À propos</li>
+        <li>Contactez-nous</li>
+        <li>Politique de confidentialité</li>
+      </ul>
+
+
+
+
+    </div>
+  </div>
+</div>
+</footer>
+
 
 
 

@@ -4,6 +4,31 @@ html *
 }
 
 
+ul {
+	list-style-type: none;
+}
+
+.fond {
+	background: url('https://images.unsplash.com/photo-1508898578281-774ac4893c0c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80')
+}
 .jumbotron {
-	background-image: 
+	background: transparent;
+}
+
+.navbar {
+	background-color: #E9F1F7;
+	border-bottom: double;
+}
+
+body {
+	background-color: #E9F1F7;
+}
+
+.footer {
+	background-color: #E9F1F7;
+}
+
+#brandlogo {
+	padding-top: 0px;
+	margin-top: 0px;
 }
