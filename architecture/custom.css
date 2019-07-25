@@ -3,3 +3,19 @@
 	transform: rotateZ(270deg);
 	
 }
+
+.container-fluid{
+  padding-left: 0rem;
+  padding-right: 0rem;
+  overflow: hidden;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: inherit;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
