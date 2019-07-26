@@ -13,6 +13,8 @@ ul {
 }
 .jumbotron {
 	background: transparent;
+	color: white;
+
 }
 
 .navbar {
@@ -20,6 +22,11 @@ ul {
 	border-bottom: double;
 }
 
+.nav-link {
+	color: #8A26A6;
+	font-size: 20px;
+	font-weight: bold;
+}
 body {
 	background-color: #E9F1F7;
 }
@@ -31,4 +38,34 @@ body {
 #brandlogo {
 	padding-top: 0px;
 	margin-top: 0px;
+}
+
+.btn-primary { 
+	background-color: #8A26A6;
+	border-color: #8A26A6; 
+}
+
+#space {
+	position: relative;
+}
+
+#female {
+	position: relative;
+	max-width: 500px;
+	
+}
+
+#male {
+	position: relative;
+	max-width: 500px;
+
+}
+
+
+
+input.empty {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
 }
