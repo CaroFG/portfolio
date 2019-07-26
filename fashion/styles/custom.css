@@ -24,8 +24,8 @@ ul {
 
 .nav-link {
 	color: #8A26A6;
-	font-size: 20px;
-	font-weight: bold;
+	font-size: 25px;
+	font-family: 'Poiret One', cursive;
 }
 body {
 	background-color: #E9F1F7;
@@ -35,6 +35,14 @@ body {
 	background-color: #E9F1F7;
 }
 
+li {
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+}
+
+#country{
+	font-family: 'Poiret One', cursive;
+}
 #brandlogo {
 	padding-top: 0px;
 	margin-top: 0px;
@@ -43,6 +51,8 @@ body {
 .btn-primary { 
 	background-color: #8A26A6;
 	border-color: #8A26A6; 
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
 }
 
 #space {
@@ -62,10 +72,16 @@ body {
 }
 
 
+#placeholder::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  font-family: 'Poiret One', cursive, Arial, Helvetica, sans-serif;
+  opacity: 1; /* Firefox */
+}
 
-input.empty {
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    text-decoration: inherit;
+
+#placeholder::-ms-input-placeholder { /* Internet Explorer 10-11 */
+  font-family: 'Poiret One', cursive, Arial, Helvetica, sans-serif;
+}
+
+#placeholder::-ms-input-placeholder { /* Microsoft Edge */
+  font-family: 'Poiret One', cursive, Arial, Helvetica, sans-serif;
 }
