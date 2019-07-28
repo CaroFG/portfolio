@@ -14,7 +14,6 @@ ul {
 .jumbotron {
 	background: transparent;
 	color: white;
-
 }
 
 .navbar {
@@ -84,4 +83,25 @@ li {
 
 #placeholder::-ms-input-placeholder { /* Microsoft Edge */
   font-family: 'Poiret One', cursive, Arial, Helvetica, sans-serif;
+}
+
+.fa-shopping-bag {
+	font-size: 25px;
+	color: #8A26A6;
+}
+
+
+.fa-heart {
+	font-size: 25px;
+	color: #8A26A6;
+}
+
+.fa-user {
+	font-size: 25px;
+	color: #8A26A6;
+}
+
+.info {
+	font-size: 10px;
+	font-family: 'Arial;
 }
