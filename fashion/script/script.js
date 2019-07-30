@@ -41,11 +41,12 @@ function transform() {
 	for(var i = 0; i < items.length; i++){
 		items[i].addEventListener('mouseover', function(event) { 
 			event.target.classList.add("mystyle")
-			event.target.style.color = '#EE05F2'
+			event.target.style.color = 'black'
   		}, false);
 		items[i].addEventListener('mouseleave', function(event){
 			event.target.classList.remove('mystyle')
-			event.target.style.color = '#8A26A6'
+			event.target.style.color = '#4A5759'
+			event.target.style.fontSize = '25px'
 		}, false);
 
 	} 

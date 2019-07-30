@@ -1,6 +1,6 @@
 html *
 {
-   font-family: 'Karla', sans-serif;
+   font-family: 'Poiret One', cursive; 
 }
 
 
@@ -9,7 +9,7 @@ ul {
 }
 
 .fond {
-	background: url('../images/jumbotron.jpeg');
+	background: url('https://images.pexels.com/photos/131683/pexels-photo-131683.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 }
 .jumbotron {
 	background: transparent;
@@ -17,20 +17,20 @@ ul {
 }
 
 .navbar {
-	background-color: #E9F1F7;
+	background-color: #D5F2ED;
 }
 
 .nav-link {
-	color: #8A26A6;
+	color: #4A5759;
 	font-size: 25px;
 	font-family: 'Poiret One', cursive;
 }
 body {
-	background-color: #E9F1F7;
+	background-color: #D5F2ED;
 }
 
 .footer {
-	background-color: #E9F1F7;
+	background-color: #D5F2ED;
 }
 
 li {
@@ -49,10 +49,11 @@ li {
 }
 
 .btn-primary { 
-	background-color: #8A26A6;
-	border-color: #8A26A6; 
+	background-color: transparent;
+	border-color: transparent; 
 	font-family: 'Poiret One', cursive;
 	font-weight: bold;
+	color: #4A5759;
 }
 
 
@@ -85,18 +86,18 @@ li {
 
 .fa-shopping-bag {
 	font-size: 25px;
-	color: #8A26A6;
+	color: #4A5759;
 }
 
 
 .fa-heart {
 	font-size: 25px;
-	color: #8A26A6;
+	color: #4A5759;
 }
 
 .fa-user {
 	font-size: 25px;
-	color: #8A26A6;
+	color: #4A5759;
 }
 
 .info {
@@ -107,10 +108,13 @@ li {
 
 
 .mystyle {
-	transform: rotatez(-30deg);
+	transform: rotateY(-30deg);
 }
 
 .insta-fako {
-	font-family: 'Cinzel';
+	font-family: 'Poiret One', cursive; font-weight: bold;
 	font-size: 50px;
+}
+#font-color {
+	color: #4A5759;
 }
