@@ -1,7 +1,6 @@
 
 function myMove() {
 	const female = document.getElementById("female");
-	console.log(female)	
   var pos = 0;
   var id = setInterval(frame, 5);
   function frame() {
@@ -55,3 +54,4 @@ function transform() {
 
    
 transform();
+

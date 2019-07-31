@@ -41,14 +41,14 @@
     </ul>
     <form class="form-inline mr-auto mt-4 pt-3 mb-2 my-lg-0">
       <input class="form-control mr-sm-2" type="text" id="placeholder" placeholder="rechercher">
-      <button class="btn btn-primary my-2 my-sm-0"type="submit"><i class="fas fa-search"></i></button>
+      <button class="btn btn-primary my-2 my-sm-0 search"type="submit"><i class="fas fa-search"></i></button>
     </form>
     <div class="navbar-nav mt-4 mx-auto">
-    <i class="fas fa-user mr-4"></i>
-    <i class="far fa-heart mr-4"></i>
-    <i class="fas fa-shopping-bag"></i>
+      <i class="fas fa-user mr-4"></i>
+      <i class="far fa-heart mr-4"></i>
+      <i class="fas fa-shopping-bag"></i>
     </div>
-   
+
   </div>
 </nav>
 
@@ -58,17 +58,17 @@
 
 
 
-  <!-- Jumbotron -->
-  
-  
-    <div class="fond">
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-          <h1 class="jumbo">Découvrez la <strong>nouvelle</strong> collection</h1>
-          <p class="jumbo" style="font-size: 20px;">De nouveaux articles chaque semaine. <em>Inspirez-vous</em> des dernières tendances.</p> <p class="mr-4" align="right"><a href="#features" class="btn btn-lg bg-transparent">DÉCOUVRIR <span class="icon fa fa-arrow-circle-down"></span></a></p>
-        </div>
-      </div>
+<!-- Jumbotron -->
+
+
+<div class="fond">
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="jumbo">Découvrez la <strong>nouvelle</strong> collection</h1>
+      <p class="jumbo" style="font-size: 20px;">De nouveaux articles chaque semaine. <em>Inspirez-vous</em> des dernières tendances.</p> <p class="mr-4" align="right"><a href="#features" class="btn btn-lg bg-transparent">DÉCOUVRIR <span class="icon fa fa-arrow-circle-down"></span></a></p>
     </div>
+  </div>
+</div>
 
 
 
@@ -83,29 +83,30 @@
 
 
 <!-- Chaussures -->
-<div id="font-color">
-<div class="container mt-5"> 
-  <div class="row">
-    <div class="col col-4 pt-3"> 
+
+  <div class="container-fluid mt-5" id="shoesCont"> 
+    <div class="row py-5">
+      <div class="col col-4 pt-3 ml-5 font-color"> 
        <h4 style="font-family: 'Poiret One', cursive; font-weight: bold;"> Une touche de couleur</h4>
        <p style="font-family: 'Poiret One', cursive;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic officiis vel, recusandae maxime ab ea soluta. Aperiam, aliquid consequuntur dolore perferendis? At unde necessitatibus animi mollitia, eligendi soluta? Reprehenderit, at.</p>
+     </div>
+     <div class="col col-3 mx-auto">
+      <img src="images/blue-sneakers.jpeg" alt="blue sneakers" style="max-height: 200px; width: auto; border-radius: 5px;">
     </div>
     <div class="col col-3 mx-auto">
-      <img src="images/blue-sneakers.jpeg" alt="blue sneakers" style="max-height: 200px; width: auto;">
-    </div>
-    <div class="col col-3 mx-auto">
-      <img src="images/orange-sneakers.jpeg" alt="orange sneakers" style="max-height: 200px; width: auto;">
+      <img src="images/orange-sneakers.jpeg" alt="orange sneakers" style="max-height: 200px; width: auto; border-radius: 5px;">
     </div>
   </div>
 </div>
 
+
 <!-- Automne -->
-<div class="container mt-5">
-  <div class="row">
+<div class="container-fluid" id="automnCont">
+  <div class="row py-5">
     <div class="col col-8 text-center">
       <img src="images/insta-woman2.jpeg" alt="" style="max-height: 500px; width: auto;">
     </div>
-    <div class="col col-4 mt-4 pt-4 pl-5">
+    <div class="col col-4 mt-4 pt-4 pl-3 font-color">
       <h4 style="font-family: 'Poiret One', cursive; font-weight: bold;">Automne</h4>
       <p style="font-family: 'Poiret One', cursive;"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit, distinctio, optio! Suscipit placeat fuga explicabo aliquid sapiente officiis odio ullam quibusdam, unde? At magni ipsum, placeat illum ea facilis, recusandae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, atque rem.</p>
     </div>
@@ -114,10 +115,10 @@
 
 <!--Accessoires -->
 
-<div class="container mt-5">
-  <div class="row">
+<div class="container mt-5" id="AccessoriesCont">
+  <div class="row font-color">
     <div class="col col-4">
-      <h2 style="font-family: 'Poiret One', cursive; font-weight: bold;"> Accessoires</h2>
+      <h3 style="font-family: 'Poiret One', cursive; font-weight: bold;"> Accessoires</h3>
       <img src="images/women-acc.jpeg" alt="" style="max-height: 400px; width: auto;">
     </div>
     <div class="col col-8 mt-5">
@@ -128,25 +129,44 @@
 </div>
 
 <!--Instagram -->
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col col-12 text-center mb-5">
-       <p> <i class="fab fa-instagram ml-2" style="font-size: 50px; color: #D98B8B"></i> <span class="insta-fako">FAKO</span></p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col col-2 ml-auto">
-        <img src="images/insta-woman1.jpeg" alt="" style="max-height: 200px; width: auto; border-radius: 3px;" class="rounded float-left">
-      </div>
-       <div class="col col-2">
-        <img src="images/insta-man-crop.jpeg" alt="" style="max-height: 200px; width: auto; border-radius: 3px;" class="rounded mx-auto d-block">
-      </div>
-       <div class="col col-2 mr-auto">
-        <img src="images/insta-woman3.jpeg" alt="" style="max-height: 200px; width: auto; border-radius: 3px;" class="rounded float-right">
-      </div>
+<div class="container mt-5" id="instaCont">
+  <div class="row">
+    <div class="col col-12 text-center mb-5">
+     <p> <i class="fab fa-instagram ml-2" style="font-size: 50px; color: #D98B8B"></i> <span class="insta-fako font-color">FAKO</span></p>
+   </div>
+ </div>
+ <div class="row">
+  <div class="col col-2 ml-auto">
+    <img src="images/insta-woman1.jpeg" alt="" style="max-height: 200px; width: auto; border-radius: 3px;" class="rounded float-left">
+  </div>
+  <div class="col col-2">
+    <img src="images/insta-man-crop.jpeg" alt="" style="max-height: 200px; width: auto; border-radius: 3px;" class="rounded mx-auto d-block">
+  </div>
+  <div class="col col-2 mr-auto">
+    <img src="images/insta-woman3.jpeg" alt="" style="max-height: 200px; width: auto; border-radius: 3px;" class="rounded float-right">
+  </div>
+</div>
+</div>
+
+<!--Newsletter -->
+
+<div class="container mt-5" id="newsCont">
+  <div class="row">
+    <div class="col col-6 mx-auto">
+      <form action="">
+        <div class="form-group font-color">
+          <h4 class="text-center mt-5 " style="font-weight: bold;"> Soyez les premiers informés</h4>
+          <div class="text-center mb-2">Abonnez-vous à notre newsletter</div>
+          <div class="d-flex">
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre email"> 
+          <button type="submit" class="btn-outline btn-primary search ml-2" id="btn-newsletter"><i class="far fa-arrow-alt-circle-right"></i></button>
+          </div>
+        </div>
+      </form>
     </div>
   </div>
-  </div>
+</div>
+
 
 <!-- Footer -->
 <footer class="footer mt-5">

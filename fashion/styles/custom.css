@@ -115,6 +115,17 @@ li {
 	font-family: 'Poiret One', cursive; font-weight: bold;
 	font-size: 50px;
 }
-#font-color {
+.font-color {
 	color: #4A5759;
 }
+
+.search:hover {
+	background-color: transparent;
+	border-color: transparent; 
+	color: #D98B8B;
+}
+
+#btn-newsletter{
+	font-size: 22px;
+}
+
