@@ -1,124 +1,37 @@
-import jQuery from 'jquery';
-import Typed from 'typed.js';
-import scrollMonitor from 'scrollmonitor';
- ///////////////////////////////////////
- ///////////////////////////////////////
- ///////////////////////////////////////
+// TYPING EFFECT
+
+// var i = 0;
+// var txt = "L'architecte, c'est formuler les problèmes avec clarté.";
+// txt.toUpperCase(); /* The text */
+// var speed = 30; /* The speed/duration of the effect in milliseconds */
 
 
-// var p = document.getElementsByTagName("h1")[0].innerHTML = typeWriter();
+// function typeWriter() {
+//   if (i < txt.length) {
+//    var x = document.getElementById("text-block").textContent += txt.charAt(i);
+//     i++;
+//     setTimeout(typeWriter, speed);
+//     console.log(x);
+//   }
+// }
 
-// console.log(p);
+// typeWriter();
 
-const mrTypedText = (($) => {
-  /**
-   * Check for typedText dependency
-   * typedText - https://github.com/mattboldt/typed.js/
-   */
-  if (typeof Typed !== 'function') {
-    throw new Error('mrTypedText requires typed.js (https://github.com/mattboldt/typed.js/)');
-  }
 
-  /**
-   * Check for scrollMonitor dependency
-   * scrollMonitor - https://github.com/stutrek/scrollMonitor
-   */
-  if (typeof scrollMonitor === 'undefined') {
-    throw new Error('mrTypedText requires scrollMonitor.js (https://github.com/stutrek/scrollMonitor)');
-  }
+// FILTERING IMAGES
 
-  /**
-   * ------------------------------------------------------------------------
-   * Constants
-   * ------------------------------------------------------------------------
-   */
+image = document.getElementsByClassName("image");
 
-  const NAME = 'mrTypedText';
-  const VERSION = '1.0.0';
-  const DATA_KEY = 'mr.typedText';
-  const EVENT_KEY = `.${DATA_KEY}`;
-  const DATA_API_KEY = '.data-api';
-  const JQUERY_NO_CONFLICT = $.fn[NAME];
+function test() {
+	for(var i = 0; i<image.length; i++) {
 
-  const Event = {
-    LOAD_DATA_API: `load${EVENT_KEY}${DATA_API_KEY}`,
-  };
+		image[i].addEventListener('mouseover', function(event) {
+			event.target.style.filter="grayscale(0%)"
+		}, false);
+		image[i].addEventListener('mouseout', function(event) {
+			event.target.style.filter="grayscale(100%)"
+		}, false);
+	}
+};
 
-  const Selector = {
-    TYPED_TEXT: '[data-typed-text]',
-  };
-
-  /**
-   * ------------------------------------------------------------------------
-   * Class Definition
-   * ------------------------------------------------------------------------
-   */
-
-  class TypedText {
-    constructor(element) {
-      // The current map element
-      this.element = element;
-      const $element = $(element);
-      this.Typed = new Typed(this.element, $element.data());
-      this.initWatcher(element);
-    }
-
-    // getters
-    static get VERSION() {
-      return VERSION;
-    }
-
-    static jQueryInterface() {
-      return this.each(function jqEachTypedText() {
-        const $element = $(this);
-        let data = $element.data(DATA_KEY);
-        if (!data) {
-          data = new TypedText(this);
-          $element.data(DATA_KEY, data);
-        }
-      });
-    }
-
-    initWatcher(element) {
-      const watcher = scrollMonitor.create(element);
-      watcher.stateChange(() => {
-        // Stop the Typed animation when the element leaves the viewport
-        if (watcher.isInViewport) { this.Typed.start(); } else { this.Typed.stop(); }
-      });
-    }
-    // END Class definition
-  }
-  /**
-   * ------------------------------------------------------------------------
-   * Initialise by data attribute
-   * ------------------------------------------------------------------------
-   */
-
-  $(window).on(Event.LOAD_DATA_API, () => {
-    const cdownsOnPage = $.makeArray($(Selector.TYPED_TEXT));
-
-    /* eslint-disable no-plusplus */
-    for (let i = cdownsOnPage.length; i--;) {
-      const $typedText = $(cdownsOnPage[i]);
-      TypedText.jQueryInterface.call($typedText, $typedText.data());
-    }
-  });
-
-  /**
-   * ------------------------------------------------------------------------
-   * jQuery
-   * ------------------------------------------------------------------------
-   */
-  /* eslint-disable no-param-reassign */
-  $.fn[NAME] = TypedText.jQueryInterface;
-  $.fn[NAME].Constructor = TypedText;
-  $.fn[NAME].noConflict = function TypedTextNoConflict() {
-    $.fn[NAME] = JQUERY_NO_CONFLICT;
-    return TypedText.jQueryInterface;
-  };
-  /* eslint-enable no-param-reassign */
-
-  return TypedText;
-})(jQuery);
-
-export default mrTypedText;
+test();
