@@ -35,3 +35,27 @@ function test() {
 };
 
 test();
+
+
+// const imageTest = {
+// 	curviness=1.25, 
+// 	autoRotate = true, 
+// 	values:[
+// 	{x:100, y:-20},
+// 	{x:300, y:10},
+// 	{x:500, y:100},
+// 	{x:700, y:-20},
+// 	{x:100, y:-70},
+// 	{x:100, y:100},
+
+// 	]
+// };
+
+// const tween =  new TimeLineLite();
+
+// tween.add(
+// 	TweenLite.to(".image", 1, {
+// 		bezier: flightPath, 
+// 		ease: Power1.easeInOut
+// 	})
+// 	);

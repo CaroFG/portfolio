@@ -77,7 +77,14 @@ p {
 
 .image:hover {
   transform: scale(1.04);
+  cursor: crosshair;
+
 }
+
+.overlay {
+    transition: 1s ease;
+}
+
 
 .flex-item {
 	/*margin-right: 70px;*/
@@ -85,24 +92,60 @@ p {
 }
 
 #btn2 {
-	border-radius: 30px;
-	color: black;
+	border-radius: 0px;
+	color: white;
 	margin-top: -100px;
 	position: relative;
+	background-color: #1a1a1a;
+	border-color: white;
+	border-style: solid;
+	border-width: 2px;
 
 }
 
 #btn2:hover {
-	background-color: lightgrey;
-	border-radius: 30px;
-	color: black;
-	opacity: 0.6;
+	
+	transform: scale(1.02);
+/*	transition: 1s ease;
+*/
+
+	/*opacity: 0.6;*/
 
 }
 
-.plan-background {
+.white-background {
+	background-color: #1a1a1a;
+}
+
+.plan-background2 {
 	background-image: url("photo/plan1.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+}
+
+.text-white {
+	color:white;
+}
+
+#team {
+	display: block;
+	margin-left:100%;
+	margin-right: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+#team-title {
+	font-family: "Nunito Sans";
+	font-weight: bold;
+	font-size: 30px;
+
+}
+
+#team-text {
+	font-family: "Nunito Sans";
+	font-size: 20px;
+	margin-left: auto;
+	width: 50%;
 }
