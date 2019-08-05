@@ -1,26 +1,26 @@
 // TYPING EFFECT
 
-// var i = 0;
-// var txt = "L'architecte, c'est formuler les problèmes avec clarté.";
-// txt.toUpperCase(); /* The text */
-// var speed = 30; /* The speed/duration of the effect in milliseconds */
+var u = 0;
+var txt = "L'architecte, c'est formuler les problèmes avec clarté.";
+txt.toUpperCase(); /* The text */
+var speed = 30; /* The speed/duration of the effect in milliseconds */
 
 
-// function typeWriter() {
-//   if (i < txt.length) {
-//    var x = document.getElementById("text-block").textContent += txt.charAt(i);
-//     i++;
-//     setTimeout(typeWriter, speed);
-//     console.log(x);
-//   }
-// }
+function typeWriter() {
+  if (u < txt.length) {
+   var x = document.getElementById("typed").textContent += txt.charAt(u);
+    u++;
+    setTimeout(typeWriter, speed);
+    console.log(x);
+  }
+}
 
-// typeWriter();
+typeWriter();
 
 
 // FILTERING IMAGES
 
-image = document.getElementsByClassName("image");
+var image = document.getElementsByClassName("image");
 
 function test() {
 	for(var i = 0; i<image.length; i++) {

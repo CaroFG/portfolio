@@ -4,24 +4,26 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
 
 
+
+
 .container-fluid{
-  padding-left: 0rem;
-  padding-right: 0rem;
-  overflow: hidden;
+	padding-left: 0rem;
+	padding-right: 0rem;
+	overflow: hidden;
 }
 
 #text-block {
-  position: absolute;
-  margin-bottom: 0px;
-  bottom: 0px;
-  right: 20px;
-  background-color: inherit;
-  color: black;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-size: 20px;
-  font-weight: ;
-  font-family: 'Roboto Mono', monospace,"Nunito Sans", "Helvetica Neue","Segoe UI",BlinkMacSystemFont, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	position: absolute;
+	margin-bottom: 0px;
+	bottom: 0px;
+	right: 20px;
+	background-color: inherit;
+	color: black;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 20px;
+	font-weight: ;
+	font-family: 'Roboto Mono', monospace,"Nunito Sans", "Helvetica Neue","Segoe UI",BlinkMacSystemFont, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .main-text {
@@ -30,13 +32,13 @@
 	bottom: 600px;
 	right: 650px;
 	letter-spacing: 5px;
-  	background-color: inherit;
-  	color: white;
- 	padding-left: 20px;
-  	padding-right: 20px;
-  	font-size: 60px;
-  	font-weight: extra-light;
-  	font-family:  "Nunito Sans",'Roboto Mono', monospace,"Helvetica Neue","Segoe UI",BlinkMacSystemFont, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+	background-color: inherit;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 60px;
+	font-weight: extra-light;
+	font-family:  "Nunito Sans",'Roboto Mono', monospace,"Helvetica Neue","Segoe UI",BlinkMacSystemFont, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 .btn-custom {
@@ -62,6 +64,10 @@
 
 p {
 	font-size: 20px;
+	color: black;
+	hyphens: auto;
+	overflow:hidden;
+	line-height: 2.5;
 }
 
 
@@ -70,46 +76,46 @@ p {
 }
 
 .image {
-	margin-left: 100px;
-	margin-right: 100px;
-	margin-bottom: 100px;
+	margin:auto;
+	width : 100%;
+	height: 100%;
 }
 
-.image:hover {
+/*.image:hover {
   transform: scale(1.04);
   cursor: crosshair;
 
-}
+  }*/
 
-.overlay {
-    transition: 1s ease;
-}
+  .overlay {
+  	transition: 1s ease;
+  }
 
 
-.flex-item {
-	/*margin-right: 70px;*/
-	justify-content: flex-end;
-}
+  .flex-item {
+  	/*margin-right: 70px;*/
+  	justify-content: flex-end;
+  }
 
-#btn2 {
-	border-radius: 0px;
-	color: white;
-	margin-top: -100px;
-	position: relative;
-	background-color: #1a1a1a;
-	border-color: white;
-	border-style: solid;
-	border-width: 2px;
+  #btn2 {
+  	border-radius: 0px;
+  	color: white;
 
-}
+  	position: relative;
+  	background-color: #1a1a1a;
+  	border-color: white;
+  	border-style: solid;
+  	border-width: 2px;
 
-#btn2:hover {
-	
-	transform: scale(1.02);
+  }
+
+  #btn2:hover {
+
+  	transform: scale(1.02);
 /*	transition: 1s ease;
 */
 
-	/*opacity: 0.6;*/
+/*opacity: 0.6;*/
 
 }
 
@@ -117,20 +123,21 @@ p {
 	background-color: #1a1a1a;
 }
 
-.plan-background2 {
-	background-image: url("photo/plan1.jpg");
+.valeur_background {
+/*	background-image: url("photo/plan2.jpg");
 	background-size: cover;
 	background-attachment: fixed;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
+	background-color: #eeeeee;
+	
 }
 
 .text-white {
-	color:white;
+	color: white;
 }
 
-#team {
-	display: block;
-	margin-left:100%;
+#team {	
+	margin-left:0%;
 	margin-right: 0px;
 	padding: 0px;
 	width: 100%;
@@ -140,12 +147,45 @@ p {
 	font-family: "Nunito Sans";
 	font-weight: bold;
 	font-size: 30px;
-
+	text-align: center;
+	color: black;
+	margin-top: 10%;
+	margin-bottom: 5%;
 }
 
 #team-text {
+	background-color: ;
 	font-family: "Nunito Sans";
 	font-size: 20px;
-	margin-left: auto;
-	width: 50%;
+	text-align: justify;
+	padding-left: 15%;
+	padding-right: 15%;
+	color: black;
+	line-height: 2.5;
+	vertical-align: middle;
+
+}
+
+
+.big-image {
+	height: 100vh;
+	width: 100vw;
+}
+
+#typed {
+	position: absolute;
+	margin-bottom: 0px;
+	bottom: 0px;
+	right: 20px;
+	background-color: inherit;
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 20px;
+	font-weight: ;
+	font-family: 'Roboto Mono', monospace,"Nunito Sans", "Helvetica Neue","Segoe UI",BlinkMacSystemFont, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.nav-link:hover {
+	text-decoration: underline;
 }
