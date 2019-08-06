@@ -1,6 +1,17 @@
+@font-face {
+	font-family: 'Vanity';
+	src: url('../fonts/Vanity-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'VanityLight';
+	src:url('../fonts/Vanity-Light.ttf');
+}
+
 html *
 {
-   font-family: 'Poiret One', cursive; 
+   margin: 0px;
+   padding: 0px; 	
 }
 
 
@@ -9,38 +20,39 @@ ul {
 }
 
 .fond {
-	background: url('https://images.pexels.com/photos/131683/pexels-photo-131683.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
 }
 .jumbotron {
 	background: transparent;
-	color: white;
+	color: black;
 }
 
 .navbar {
-	background-color: #D5F2ED;
+	background-color: #D98BAF;
 }
 
 .nav-link {
-	color: #4A5759;
+	color: #2C2C46;
 	font-size: 25px;
-	font-family: 'Poiret One', cursive;
+	font-family: 'Grenze';
+	font-weight: 100;
 }
 body {
-	background-color: #D5F2ED;
+	background-color: #F4BA35;
 }
 
 .footer {
-	background-color: #D5F2ED;
+	background-color: #F6F8F7;
 }
 
 li {
-	font-family: 'Poiret One', cursive;
-	font-weight: bold;
+	font-family: 'Grenze';
+	font-weight: 100;
 	font-size: 18px;
 }
 
 #country{
-	font-family: 'Poiret One', cursive;
+	font-family: 'Grenze';
+	font-weight: 100;
 	font-size: 18px;
 }
 #brandlogo {
@@ -51,7 +63,7 @@ li {
 .btn-primary { 
 	background-color: transparent;
 	border-color: transparent; 
-	font-family: 'Poiret One', cursive;
+	font-family: 'Grenze', cursive;
 	font-weight: bold;
 	color: #4A5759;
 }
@@ -102,7 +114,7 @@ li {
 
 .info {
 	font-size: 15px;
-	font-family: 'Cinzel';
+	font-family: 'Lato';
 	border-top: solid, 1px;
 }
 
@@ -112,11 +124,8 @@ li {
 }
 
 .insta-fako {
-	font-family: 'Poiret One', cursive; font-weight: bold;
+	font-family: 'VanityLight', cursive; font-weight: bold;
 	font-size: 50px;
-}
-.font-color {
-	color: #4A5759;
 }
 
 .search:hover {
@@ -129,3 +138,58 @@ li {
 	font-size: 22px;
 }
 
+text {
+	color: #0C0C0C;
+}
+
+
+
+h4 {
+	font-family: 'Grenze';
+	font-weight: bold;
+	
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+	font-family: 'Vanity';
+	font-weight: bold;
+	font-size: 200px;
+	color:  #B1A8A1; 
+}
+
+p {
+	font-family: 'Lato';
+}
+
+ img[alt="female model"] {
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   filter: grayscale(100%);
+   transition: all 0.5s ease;
+ }
+
+ img[alt="female model"]:hover {
+   -webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+   filter: grayscale(0%);
+ }
+
+  img[alt="male model"] {
+   -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   filter: grayscale(100%);
+   transition: all 0.5s ease;
+ }
+
+ img[alt="male model"]:hover {
+   -webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+   filter: grayscale(0%);
+ }

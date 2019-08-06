@@ -30,8 +30,7 @@ function myMove2() {
 }
 
 
-myMove();
-myMove2();
+
 
 
 items = document.getElementsByClassName('nav-link')
