@@ -15,7 +15,7 @@ function typeWriter() {
   }
 }
 
-typeWriter();
+// typeWriter();
 
 
 // FILTERING IMAGES
@@ -34,7 +34,7 @@ function test() {
 	}
 };
 
-test();
+// test();
 
 
 // const imageTest = {
