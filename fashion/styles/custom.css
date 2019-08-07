@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'Vanity';
-	src: url('../fonts/Vanity-BoldItalic.ttf') format('truetype');
+	src: url('../fonts/Vanity-BoldWideItalic.ttf') format('truetype');
 }
 
 @font-face {
@@ -19,19 +19,12 @@ ul {
 	list-style-type: none;
 }
 
-.fond {
-}
-.jumbotron {
-	background: transparent;
-	color: black;
-}
-
 .navbar {
 	background-color: #D98BAF;
 }
 
 .nav-link {
-	color: #2C2C46;
+	color: grey;
 	font-size: 25px;
 	font-family: 'Grenze';
 	font-weight: 100;
@@ -55,10 +48,6 @@ li {
 	font-weight: 100;
 	font-size: 18px;
 }
-#brandlogo {
-	padding-top: 0px;
-	margin-top: 0px;
-}
 
 .btn-primary { 
 	background-color: transparent;
@@ -69,47 +58,47 @@ li {
 }
 
 
-#female {
-	position: relative;
-	max-width: 500px;
-	
-}
-
-#male {
-	position: relative;
-	max-width: 500px;
-
-}
-
 
 #placeholder::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-  font-family: 'Poiret One', cursive, Arial, Helvetica, sans-serif;
+  font-family: 'Grenze', Arial, Helvetica, sans-serif;
   opacity: 1; /* Firefox */
+  font-size: 20px;
 }
 
 
 #placeholder::-ms-input-placeholder { /* Internet Explorer 10-11 */
-  font-family: 'Poiret One', cursive, Arial, Helvetica, sans-serif;
+  font-family: 'Grenze', Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 #placeholder::-ms-input-placeholder { /* Microsoft Edge */
-  font-family: 'Poiret One', cursive, Arial, Helvetica, sans-serif;
+  font-family: 'Grenze', Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 .fa-shopping-bag {
 	font-size: 25px;
+	color: black;
+}
+.fa-shopping-bag:hover {
 	color: #4A5759;
 }
-
 
 .fa-heart {
 	font-size: 25px;
-	color: #4A5759;
+	color: black;
 }
 
+.fa-heart:hover {
+	color: #4A5759;
+}
 .fa-user {
 	font-size: 25px;
+	color: black;
+}
+.fa-user:hover {
 	color: #4A5759;
+
 }
 
 .info {
@@ -119,19 +108,23 @@ li {
 }
 
 
-.mystyle {
-	transform: rotateY(-30deg);
-}
-
 .insta-fako {
-	font-family: 'VanityLight', cursive; font-weight: bold;
+		font-family: 'VanityLight';
+ 		font-weight: bold;
+ 		font-style: italic;
 	font-size: 50px;
 }
 
-.search:hover {
+.search {
 	background-color: transparent;
 	border-color: transparent; 
-	color: #D98B8B;
+	color: black;
+}
+
+.search:hover {
+	color: #4A5759;
+	background-color: transparent;
+	border-color: transparent; 
 }
 
 #btn-newsletter{
@@ -161,7 +154,7 @@ h1 {
 	font-family: 'Vanity';
 	font-weight: bold;
 	font-size: 200px;
-	color:  #B1A8A1; 
+	color:  black; 
 }
 
 p {
@@ -194,6 +187,7 @@ p {
    filter: grayscale(0%);
  }
 
+
  .girl-bg {
  	background-color: #D98BAF;
  	border-style: none;
@@ -225,4 +219,43 @@ p {
 
 .container-fluid {
 	overflow: hidden;
+
+}
+
+ .navbar-brand {
+ 		font-family: 'VanityLight';
+ 		font-weight: bold;
+ 		font-style: italic;
+ 		font-size: 25px;
+ 		color: black;
+
+ }
+ .navbar-brand:hover {
+	color: #4A5759;
+ }
+
+ .navbar2 {
+ 	background-color: black;
+ }
+
+.navbar2-link {
+	color: grey;
+	font-size: 25px;
+	font-family: 'Grenze';
+	
+}
+
+.navbar2-link:hover {
+	text-decoration: none;
+	color: white;
+	transform: rotateY(30deg);
+}
+
+.fa-box-open{
+	font-size: 25px;
+
+}
+
+.fa-info {
+	font-size: 25px;
 }
