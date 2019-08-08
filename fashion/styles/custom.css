@@ -8,6 +8,16 @@
 	src:url('../fonts/Vanity-Light.ttf');
 }
 
+@font-face {
+	font-family: 'NexaBold';
+	src: url('../fonts/Nexa-Bold.otf');
+}
+
+@font-face {
+	font-family: 'NexaLight';
+	src: url('../fonts/Nexa-LIght.otf');
+}
+
 html *
 {
    margin: 0px;
@@ -31,6 +41,7 @@ ul {
 }
 body {
 	background-color: #EEF4ED;
+	font-family: 'NexaBold';
 }
 
 .footer {
@@ -157,9 +168,7 @@ h1 {
 	color:  black; 
 }
 
-p {
-	font-family: 'Lato';
-}
+
 
  img[alt="female model"] {
    -webkit-filter: grayscale(100%);
