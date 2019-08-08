@@ -259,3 +259,25 @@ p {
 .fa-info {
 	font-size: 25px;
 }
+
+
+ .separator:after {
+  content:'';
+  width:100%;
+  border-bottom:black solid 1px;
+  display:inline-block;
+  vertical-align:middle;
+  
+}
+
+.button {
+  background-color: black;
+  color: white;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 0;
+}
+
