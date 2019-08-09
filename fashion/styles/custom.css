@@ -1,275 +1,216 @@
 @font-face {
-	font-family: 'Vanity';
-	src: url('../fonts/Vanity-BoldWideItalic.ttf') format('truetype');
-}
-
+  font-family: 'Vanity';
+  src: url("../fonts/Vanity-BoldWideItalic.ttf") format("truetype"); }
 @font-face {
-	font-family: 'VanityLight';
-	src:url('../fonts/Vanity-Light.ttf');
-}
-
-html *
-{
-   margin: 0px;
-   padding: 0px; 	
-}
-
+  font-family: 'VanityLight';
+  src: url("../fonts/Vanity-Light.ttf"); }
+html * {
+  margin: 0px;
+  padding: 0px; }
 
 ul {
-	list-style-type: none;
-}
+  list-style-type: none; }
 
 .navbar {
-	background-color: #D98BAF;
-}
+  background-color: #D98BAF; }
 
 .nav-link {
-	color: grey;
-	font-size: 25px;
-	font-family: 'Grenze';
-	font-weight: 100;
-}
+  color: grey;
+  font-size: 25px;
+  font-family: 'Grenze';
+  font-weight: 100; }
+
 body {
-	background-color: #EEF4ED;
-}
+  background-color: #EEF4ED; }
 
 .footer {
-	background-color: #F6F8F7;
-}
+  background-color: #F6F8F7; }
 
 li {
-	font-family: 'Grenze';
-	font-weight: 100;
-	font-size: 18px;
-}
+  font-family: 'Grenze';
+  font-weight: 100;
+  font-size: 18px; }
 
-#country{
-	font-family: 'Grenze';
-	font-weight: 100;
-	font-size: 18px;
-}
+#country {
+  font-family: 'Grenze';
+  font-weight: 100;
+  font-size: 18px; }
 
-.btn-primary { 
-	background-color: transparent;
-	border-color: transparent; 
-	font-family: 'Grenze', cursive;
-	font-weight: bold;
-	color: #4A5759;
-}
+.btn-primary {
+  background-color: transparent;
+  border-color: transparent;
+  font-family: 'Grenze', cursive;
+  font-weight: bold;
+  color: #4A5759; }
 
-
-
-#placeholder::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+#placeholder::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
   font-family: 'Grenze', Arial, Helvetica, sans-serif;
-  opacity: 1; /* Firefox */
-  font-size: 20px;
-}
+  opacity: 1;
+  /* Firefox */
+  font-size: 20px; }
 
-
-#placeholder::-ms-input-placeholder { /* Internet Explorer 10-11 */
+#placeholder::-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
   font-family: 'Grenze', Arial, Helvetica, sans-serif;
-  font-size: 20px;
-}
+  font-size: 20px; }
 
-#placeholder::-ms-input-placeholder { /* Microsoft Edge */
+#placeholder::-ms-input-placeholder {
+  /* Microsoft Edge */
   font-family: 'Grenze', Arial, Helvetica, sans-serif;
-  font-size: 20px;
-}
+  font-size: 20px; }
 
 .fa-shopping-bag {
-	font-size: 25px;
-	color: black;
-}
+  font-size: 25px;
+  color: black; }
+
 .fa-shopping-bag:hover {
-	color: #4A5759;
-}
+  color: #4A5759; }
 
 .fa-heart {
-	font-size: 25px;
-	color: black;
-}
+  font-size: 25px;
+  color: black; }
 
 .fa-heart:hover {
-	color: #4A5759;
-}
-.fa-user {
-	font-size: 25px;
-	color: black;
-}
-.fa-user:hover {
-	color: #4A5759;
+  color: #4A5759; }
 
-}
+.fa-user {
+  font-size: 25px;
+  color: black; }
+
+.fa-user:hover {
+  color: #4A5759; }
 
 .info {
-	font-size: 15px;
-	font-family: 'Lato';
-	border-top: solid, 1px;
-}
-
+  font-size: 15px;
+  font-family: 'Lato';
+  border-top: solid, 1px; }
 
 .insta-fako {
-		font-family: 'VanityLight';
- 		font-weight: bold;
- 		font-style: italic;
-	font-size: 50px;
-}
+  font-family: 'VanityLight';
+  font-weight: bold;
+  font-style: italic;
+  font-size: 50px; }
 
 .search {
-	background-color: transparent;
-	border-color: transparent; 
-	color: black;
-}
+  background-color: transparent;
+  border-color: transparent;
+  color: black; }
 
 .search:hover {
-	color: #4A5759;
-	background-color: transparent;
-	border-color: transparent; 
-}
+  color: #4A5759;
+  background-color: transparent;
+  border-color: transparent; }
 
-#btn-newsletter{
-	font-size: 22px;
-}
+#btn-newsletter {
+  font-size: 22px; }
 
 text {
-	color: #0C0C0C;
-}
-
-
+  color: #0C0C0C; }
 
 h4 {
-	font-family: 'Grenze';
-	font-weight: bold;
-	
-}
+  font-family: 'Grenze';
+  font-weight: bold; }
 
 .centered {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
-}
+  transform: translate(-50%, -50%); }
 
 h1 {
-	font-family: 'Vanity';
-	font-weight: bold;
-	font-size: 200px;
-	color:  black; 
-}
+  font-family: 'Vanity';
+  font-weight: bold;
+  font-size: 200px;
+  color: black; }
 
 p {
-	font-family: 'Lato';
-}
+  font-family: 'Lato'; }
 
- img[alt="female model"] {
-   -webkit-filter: grayscale(100%);
-   -moz-filter: grayscale(100%);
-   filter: grayscale(100%);
-   transition: all 0.5s ease;
- }
+img[alt="female model"] {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.5s ease; }
 
- img[alt="female model"]:hover {
-   -webkit-filter: grayscale(0%);
-   -moz-filter: grayscale(0%);
-   filter: grayscale(0%);
- }
+img[alt="female model"]:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%); }
 
-  img[alt="male model"] {
-   -webkit-filter: grayscale(100%);
-   -moz-filter: grayscale(100%);
-   filter: grayscale(100%);
-   transition: all 0.5s ease;
- }
+img[alt="male model"] {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.5s ease; }
 
- img[alt="male model"]:hover {
-   -webkit-filter: grayscale(0%);
-   -moz-filter: grayscale(0%);
-   filter: grayscale(0%);
- }
+img[alt="male model"]:hover {
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%); }
 
+.girl-bg {
+  background-color: #EEF4ED;
+  border-style: none; }
 
- .girl-bg {
- 	background-color: #EEF4ED
- 	border-style: none;
- }
+h2 {
+  font-family: 'Grenze';
+  font-size: 60px;
+  font-weight: bolder; }
 
- h2 {
- 	font-family: 'Grenze';
- 	font-size: 60px;
- 	font-weight: bolder;
- }
+h3:before {
+  content: '';
+  width: 2em;
+  border-bottom: black solid;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 20px; }
 
-
- h3:before {
-  content:'';
-  width:2em;
-  border-bottom:black solid;
-  display:inline-block;
-  vertical-align:middle;
-  margin-right: 20px;
-}
-
- h3:after {
-  content:'';
-  width:2em;
-  border-bottom:black solid;
-  display:inline-block;
-  vertical-align:middle;
-  margin-left: 20px;
-}
+h3:after {
+  content: '';
+  width: 2em;
+  border-bottom: black solid;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px; }
 
 .container-fluid {
-	overflow: hidden;
+  overflow: hidden; }
 
-}
+.navbar-brand {
+  font-family: 'VanityLight';
+  font-weight: bold;
+  font-style: italic;
+  font-size: 25px;
+  color: black; }
 
- .navbar-brand {
- 		font-family: 'VanityLight';
- 		font-weight: bold;
- 		font-style: italic;
- 		font-size: 25px;
- 		color: black;
+.navbar-brand:hover {
+  color: #4A5759; }
 
- }
- .navbar-brand:hover {
-	color: #4A5759;
- }
-
- .navbar2 {
- 	background-color: black;
- }
+.navbar2 {
+  background-color: black; }
 
 .navbar2-link {
-	color: grey;
-	font-size: 25px;
-	font-family: 'Grenze';
-	
-}
+  color: grey;
+  font-size: 25px;
+  font-family: 'Grenze'; }
 
 .navbar2-link:hover {
-	text-decoration: none;
-	color: white;
-}
+  text-decoration: none;
+  color: white; }
 
-.fa-box-open{
-	font-size: 25px;
-
-}
+.fa-box-open {
+  font-size: 25px; }
 
 .fa-info {
-	font-size: 25px;
-}
+  font-size: 25px; }
 
-
- .separator:after {
-  content:'';
-  width:70%;
-  border-bottom:black solid 1px;
-  display:inline-block;
-  vertical-align:middle;
-
-  
-}
+.separator:after {
+  content: '';
+  width: 70%;
+  border-bottom: black solid 1px;
+  display: inline-block;
+  vertical-align: middle; }
 
 .button {
   background-color: black;
@@ -280,8 +221,30 @@ p {
   display: inline-block;
   font-size: 16px;
   border-radius: 0;
-  border: none;
+  border: none; }
+
+.selection-bg {
+  background-color: #f5cfc2; }
+
+.fall-down.words .char {
+  animation: slide-down 1s forwards;
+  animation-delay: calc(.5s + (.1s * var(--char-index)));
+  opacity: 0; 
+}
+
+@keyframes slide-down {
+  from {
+    transform: translateY(-100%);
+    opacity: 0; 
+
+	}
+
+  to {
+    transform: translateY(0%);
+    opacity: 1; 
+
+    } 
 }
 
 
-
+/*# sourceMappingURL=custom.css.map */

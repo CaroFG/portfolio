@@ -1,4 +1,6 @@
 
+Splitting();
+
 function myMove() {
 	const female = document.getElementById("female");
   var pos = 0;
