@@ -19,6 +19,10 @@
 	<link rel="stylesheet" href="styles/custom.css">
 	<!-- Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Grenze:100,400|Lato&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Gruppo&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Blinker:300,400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	<!-- CDN Font Awesome -->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
@@ -37,7 +41,7 @@
 		<div class="collapse navbar-collapse" id="navbarColor02">
 			<div class="mx-auto">
 				<form class="form-inline my-2" style="">
-					<input class="form-control" type="text" id="placeholder" placeholder="Rechercher" style="width: 400px;">
+					<input class="form-control" type="text" id="placeholder" placeholder="Que recherchez-vous ?" style="width: 400px; border-radius: 0px;">
 					<button class="btn btn-primary my-2 my-sm-0 search"type="submit"><i class="fas fa-search"></i></button>
 				</form>
 			</div>
@@ -51,42 +55,25 @@
 		<!-- Navbar2 -->
 		<div class="container-fluid" style="background-color: black">
 			<div class="row">
-				<div class="col col-12 text-center">
+				<div class="col col-12" style="text-align: center;">
 					<a class="navbar2-link mx-4"href="#"> NOUVEAUTÉS </a>
 					<a class="navbar2-link mx-4"href="#"> VÊTEMENTS </a>
 					<a class="navbar2-link mx-4"href="#"> CHAUSSURES </a>
 					<a class="navbar2-link mx-4"href="#"> ACCESSOIRES </a>
+					<a class="navbar2-link mx-4"href="#"> PREMIUM </a>
 				</div>
 			</div>
 		</div>
 
 
-		      <!-- Main Pictures -->
-        <div class="container-fluid" style="margin: 0; padding: 0;">
-            <div class="row">
-                <div class="col col-12 text-center">
-                    <div style="font-size: 0;">
-                        <a href="#"><img src="images/pink-model-cropped2.jpg" alt="" style="max-width: 50%;  padding: 0; margin: 0;"></a>
-                        <a href="#"><img src="images/man-yellow-jumper-cropped2.jpeg" alt="" style="max-width: 50%; padding: 0; margin: 0;"></a>
-                        <div class="centered"><h1 class="fall-down" data-splitting>FAKO</h1></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-
-
-
-			<!-- GIRLS -->
-			<div class="container-fluid girl-bg pt-5">
-				<div class="container girl-bg pt-5">
-					<div class="row selection-bg">
-						<div class="col-12">
-							<h2 class="text-center mb-3 pt-5" style="font-family: 'Vanity'; font-size: 200px;">FAKO SELECTION</h2>
-							<p class="pl-5 pr-5 pt-5 pb-5" style="text-align: center; font-size: 20px; line-height: 2;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas ultricies mi eget mauris. Ornare arcu dui vivamus arcu. Integer malesuada nunc vel risus.</p>
-							<div class="pl-5">
-						<h3 style="text-align: center; font-family: 'NexaLight'">Voir toute la sélection</h3>
+		<!-- Main Pictures -->
+		<div class="container-fluid" style="margin: 0; padding: 0;">
+			<div class="row">
+				<div class="col col-12 text-center">
+					<div style="font-size: 0;">
+						<a href="#"><img src="images/pink-model-cropped2.jpg" alt="" style="max-width: 50%;  padding: 0; margin: 0;"></a>
+						<a href="#"><img src="images/man-yellow-jumper-cropped2.jpeg" alt="" style="max-width: 50%; padding: 0; margin: 0;"></a>
+						<div class="centered"><h1 class="fall-down" data-splitting>FAKO</h1></div>
 					</div>
 				</div>
 			</div>
@@ -94,57 +81,115 @@
 
 
 
-		
+
 
 		<!-- GIRLS -->
-		
-		<div class="container girl-bg pt-5">
+
+		<div class="container-fluid girl-bg">
+			<div class="row selection-bg pt-5 pb-5">
+				<div class="col-12">
+					<h2 class="text-center" style="font-family: 'Lato'; letter-spacing: 10px;">FAKO SELECTION</h2>
+					<p class="pt-5 pb-5" style="text-align: center; font-size: 20px; line-height: 2; padding-left: 15%; padding-right: 15%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Maecenas ultricies mi eget mauris. Ornare arcu dui vivamus arcu. Integer malesuada nunc vel risus.</p>
+					<div class="pl-5">
+						<h3 style="text-align: center; font-family: 'Lato'; font-weight: 550; font-size: 24px; ">Voir toute la sélection</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- FILTRES -->
+		<div class="container mt-4 ">
+			<div class="row" >
+				<div class="col-1 mr-4">
+					<div class="dropdown ">
+						<button class="btn btn-outline dropdown-toggle filtre " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Tailles
+						</button>
+					</div>
+				</div>
+				<div class="col-1 mr-5">
+					<div class="dropdown ">
+						<button class="btn btn-outline dropdown-toggle filtre " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Marques
+						</button>
+					</div>
+				</div>
+				<div class="col-1 mr-3">
+					<div class="dropdown ">
+						<button class="btn btn-outline dropdown-toggle filtre " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Prix
+						</button>
+					</div>
+				</div>
+				<div class="col-1 mr-5" style="margin-left: 0px;">
+					<div class="dropdown">
+						<button class="btn btn-outline dropdown-toggle filtre " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Couleurs
+						</button>
+					</div>
+				</div>
+				<div class="col-1" style="margin-left: 0px;">
+					<div class="dropdown">
+						<button class="btn btn-outline dropdown-toggle filtre " type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Premium
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<!-- GIRLS -->
+
+		<div class="container girl-bg">
 			<div class="row mt-5 mb-4">
 				<div class="col-6">
-					<div class="girl-bg" style="font-size: 20px;">
+					<div class="girl-bg" style="font-size: 16px;">
 						<img src="images/sangoku-woman.jpg" alt="..." style="height: 800px; width: 555px;">
 						<div style="text-align: left;" class="mt-1">
 
-							<p>Total look <i class="far fa-heart pt-1" style="color: black; position: absolute; left: 96%;"></i></p>
+							<p class="girl-bg">Total look <img src="icons/like-b.png" class="pt-1" style="color: black; position: absolute; left: 95%; width: 23px;"></img></p>
 
-							<p>Lorem ipsum dolor sit amet</p>
+							<p class="girl-bg">Lorem ipsum dolor sit amet</p>
 
 							<span style="vertical-align: middle;">70€</span>
 						</div>
 					</div>
 				</div>
 				<div class="col-6">
-					<div class="girl-bg" style="font-size: 20px;">
+					<div class="girl-bg" style="font-size: 16px;">
 						<img src="images/plant-girl.jpg" alt="..." style="height: 800px; width: 555px;">
 						<div style="text-align: left;" class="mt-1">
-							<p>Chemisier en satin <i class="far fa-heart pt-1" style="color: black; position: absolute; left: 96%;"></i></p>
-							<p>Lorem ipsum dolor sit amet</p>
+							<p class="girl-bg">Chemisier en satin  <img src="icons/like-b.png" class="pt-1" style="color: black; position: absolute; left: 95%; width: 23px;"></img></p>
+							<p class="girl-bg"> Lorem ipsum dolor sit amet</p>
 							<span style="vertical-align: middle;">40€ </span>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="row mt-5 mb-4">
+			<div class="row mt-4 mb-4">
 				<div class="col-6">
-					<div class="girl-bg" style="font-size: 20px;">
+					<div class="girl-bg" style="font-size: 16px;">
 						<img src="images/jean.jpg" alt="..." style="height: 800px; width: 555px;">
 						<div style="text-align: left;" class="mt-1">
 
-							<p>Total look bleu<i class="far fa-heart pt-1" style="color: black; position: absolute; left: 96%;"></i></p>
+							<p class="girl-bg">Total look bleu <img src="icons/like-b.png" class="pt-1" style="color: black; position: absolute; left: 95%; width: 23px;"></img></p>
 
-							<p>Lorem ipsum dolor sit amet</p>
+							<p class="girl-bg">Lorem ipsum dolor sit amet</p>
 
 							<span style="vertical-align: middle;">70€</span>
 						</div>
 					</div>
 				</div>
 				<div class="col-6">
-					<div class="girl-bg" style="font-size: 20px;">
+					<div class="girl-bg" style="font-size: 16px;">
 						<img src="images/dress.jpg" alt="..." style="height: 800px; width: 555px;">
 						<div style="text-align: left;" class="mt-1">
-							<p>Robe <i class="far fa-heart pt-1" style="color: black; position: absolute; left: 96%;"></i></p>
-							<p>Lorem ipsum dolor sit amet</p>
+							<p class="girl-bg">Robe  <img src="icons/like-b.png" class="pt-1" style="color: black; position: absolute; left: 95%; width: 23px;"></img></p>
+							<p class="girl-bg">Lorem ipsum dolor sit amet</p>
 							<span style="vertical-align: middle;">40€ </span>
 						</div>
 					</div>
@@ -153,59 +198,59 @@
 
 			<!-- BOYS -->
 
-			<div class="row mt-5 mb-4">
+			<div class="row mt-4 mb-4">
 				<div class="col-6">
-					<div class="girl-bg" style="font-size: 20px;">
+					<div class="girl-bg" style="font-size: 16px;">
 						<img src="images/man1.jpeg" alt="..." style="height: 800px; width: 555px;">
 						<div style="text-align: left;" class="mt-1">
 
-							<p>Veste en daim <i class="far fa-heart pt-1" style="color: black; position: absolute; left: 96%;"></i></p>
+							<p class="girl-bg">Veste en daim  <img src="icons/like-b.png" class="pt-1" style="color: black; position: absolute; left: 95%; width: 23px;"></img></p>
 
-							<p>Lorem ipsum dolor sit amet</p>
+							<p class="girl-bg">Lorem ipsum dolor sit amet</p>
 
 							<span style="vertical-align: middle;">70€</span>
 						</div>
 					</div>
 				</div>
 				<div class="col-6">
-					<div class="girl-bg" style="font-size: 20px;">
+					<div class="girl-bg" style="font-size: 16px;">
 						<img src="images/trouser-man.jpg" alt="..." style="height: 800px; width: 555px;">
 						<div style="text-align: left;" class="mt-1">
-							<p>Pantalon extra-slim <i class="far fa-heart pt-1" style="color: black; position: absolute; left: 96%;"></i></p>
-							<p>Lorem ipsum dolor sit amet</p>
+							<p class="girl-bg">Pantalon extra-slim  <img src="icons/like-b.png" class="pt-1" style="color: black; position: absolute; left: 95%; width: 23px;"></img></p>
+							<p class="girl-bg">Lorem ipsum dolor sit amet</p>
 							<span style="vertical-align: middle;">40€ </span>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="row mt-5 mb-4">
+			<div class="row mt-4 mb-4">
 				<div class="col-6">
-					<div class="girl-bg" style="font-size: 20px;">
+					<div class="girl-bg" style="font-size: 16px;">
 						<img src="images/denim-jacket.jpg" alt="..." style="height: 800px; width: 555px;">
 						<div style="text-align: left;" class="mt-1">
 
-							<p>Pantalon à carreaux <i class="far fa-heart pt-1" style="color: black; position: absolute; left: 96%;"></i></p>
+							<p class="girl-bg">Pantalon à carreaux  <img src="icons/like-b.png" class="pt-1" style="color: black; position: absolute; left: 95%; width: 23px;"></img></i></p>
 
-							<p>Lorem ipsum dolor sit amet</p>
+							<p class="girl-bg">Lorem ipsum dolor sit amet</p>
 
 							<span style="vertical-align: middle;">70€</span>
 						</div>
 					</div>
 				</div>
 				<div class="col-6">
-					<div class="girl-bg" style="font-size: 20px;">
+					<div class="girl-bg" style="font-size: 16px;">
 						<img src="images/charles.jpg" alt="..." style="height: 800px; width: 555px;">
 						<div style="text-align: left;" class="mt-1">
-							<p>Veste de costume <i class="far fa-heart pt-1" style="color: black; position: absolute; left: 96%;"></i></p>
-							<p>Lorem ipsum dolor sit amet</p>
+							<p class="girl-bg">Veste de costume  <img src="icons/like-b.png" class="pt-1" style="color: black; position: absolute; left: 95%; width: 23px;"></img></p>
+							<p class="girl-bg">Lorem ipsum dolor sit amet</p>
 							<span style="vertical-align: middle;">40€ </span>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		
+
 
 
 
@@ -216,11 +261,11 @@
 					<img src="images/sweat-woman.jpg" style="max-width:100%; height:auto; ">
 				</div>
 				<div class="col-4 mt-5 pt-5 " style="line-height: 3; text-align: left; padding-left: 8%; padding-right: auto;">
-					<h4>Pull jaune décontracté </h4>
+					<h4 class="mb-4">Pull jaune décontracté </h4>
 					<p>39.95 EUR</p>
-					<p>YELLOW - 5590/402</p>
-					<p>Round neck dress with short puff sleeves. </p>
-					<p>HEIGHT OF MODEL: 177 CM / 5′ 9″</p>
+					<p>JAUNE - 5590/402</p>
+					<p>Manches longues et larges mailles. </p>
+					<p>Le mannequin mesure: 177 cm</p>
 					<p class="separator"></p>
 					<p>S</p>
 					<p>M</p>
@@ -229,10 +274,10 @@
 					<p class="separator"></p>
 					<button type="button" class="btn-sm button">Ajouter</button>
 					<ul class=" pl-3" style="list-style-type: square;">
-						<li>Composition and care</li>
-						<li>Check in-store availability</li>
-						<li>Delivery, Exchanges and Returns</li>
-						<li>SHARE</li>
+						<li>Composition et entretien</li>
+						<li>Voir disponibilités en magasin</li>
+						<li>Livraison, échange et retours</li>
+						<li>Partager</li>
 					</ul>
 					<img src="icons/recycle.png" width="30"></img>
 				</div>
@@ -245,8 +290,8 @@
 
 		<div class="container"> 
 			<div class="row py-5">
-				<div class="col col-12 pt-3 text-center"> 
-					<h4 style="color: black;"> <span style="font-family: 'VanityLight'; font-style: italic; font-size: 22px;">FAKO </span>Premium </h4>
+				<div class="col col-12 pt-3 mb-1 text-center"> 
+					<h4 style="color: black; font-family: 'Montserrat'; font-size: 60px; letter-spacing: 15px;"> FAKO PREMIUM </h4>
 				</div>
 			</div>
 			<div class="row">
@@ -269,7 +314,7 @@
 							<h4 class="text-center mt-5 " style="font-weight: bold;"> Soyez les premiers informés</h4>
 							<div class="text-center mb-2">Abonnez-vous à notre newsletter</div>
 							<div class="d-flex">
-								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre email"> 
+								<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre email" style="border-radius: 0px;"> 
 								<button type="submit" class="btn-outline btn-primary search ml-2" id="btn-newsletter"><i class="far fa-arrow-alt-circle-right"></i></button>
 							</div>
 						</div>
@@ -284,7 +329,7 @@
 			<div class="container-fluid">
 				<div class="row pt-4">
 					<div class="col col-4 text-dark"> 
-						<ul class="pb-2">
+						<ul class="pb-2 pl-5">
 							<li class="ml-5"><i class="fas fa-box-open"></i></li>
 							<li>CONDITIONS DE VENTE</li>
 							<li>SUIVI DE COMMANDE</li>
@@ -320,14 +365,14 @@
 		</footer>
 
 
-			<!-- calling splitting js  -->
+		<!-- calling splitting js  -->
 		<!-- <script> Splitting(); </script> -->
-		</body>
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-		<script src="script/script.js"></script>
+	</body>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="script/script.js"></script>
 
-		
-		</html>
+
+	</html>
 

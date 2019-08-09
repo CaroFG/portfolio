@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Vanity', 
-  src: url("../fonts/Vanity-BoldWideItalic.otf") format("truetype"); }
+  font-family: 'Vanity';
+  src: url("../fonts/Vanity-BoldWideItalic.ttf") format("truetype"); }
 
   @import url('https://fonts.googleapis.com/css?family=Blinker&display=swap');
 
@@ -16,74 +16,83 @@ html * {
 
 @font-face {
 	font-family: 'NexaBold';
-	src: url('../fonts/Nexa-Bold.otf');
+	src: url('../fonts/Nexa-Bold.ttf');
 }
 
 @font-face {
 	font-family: 'NexaLight';
-	src: url('../fonts/Nexa-LIght.otf');
+	src: url('../fonts/Nexa-LIght.ttf');
 }
 
  .fall-down {
-  	font-family: 'Vanity','Blinker', sans-serif;
+  	font-family: 'Vanity';
+  	font-weight: normal;
   }
 
 ul {
   list-style-type: none; }
 
 .navbar {
-  background-color: #D98BAF; }
+  background-color:#ffda79 ; }
 
-.nav-link {
-  color: grey;
-  font-size: 25px;
-  font-family: 'Grenze';
-  font-weight: 100; }
+  .selection-bg {
+  background-color:#f7f1e3 ; }
+
+
 
 body {
 
-  background-color: #EEF4ED; 
+  background-color: #FCFFFE; 
 
-	font-family: 'NexaBold';
+  font-family: 'Lato';
 }
+
+
+
 
 
 .footer {
   background-color: #F6F8F7; }
 
 li {
-  font-family: 'Grenze';
+  font-family: 'Lato';
   font-weight: 100;
-  font-size: 18px; }
+  font-size: 16px; }
 
 #country {
-  font-family: 'Grenze';
+  font-family: 'Montserrat';
   font-weight: 100;
   font-size: 18px; }
 
 .btn-primary {
   background-color: transparent;
   border-color: transparent;
-  font-family: 'Grenze', cursive;
+  font-family: 'Montserrat', cursive;
   font-weight: bold;
   color: #4A5759; }
 
 #placeholder::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
-  font-family: 'Grenze', Arial, Helvetica, sans-serif;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
   opacity: 1;
   /* Firefox */
-  font-size: 20px; }
+  font-size: 17px;
+ color:black;
+ }
 
 #placeholder::-ms-input-placeholder {
   /* Internet Explorer 10-11 */
-  font-family: 'Grenze', Arial, Helvetica, sans-serif;
-  font-size: 20px; }
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+ color:black;
+ }
 
 #placeholder::-ms-input-placeholder {
   /* Microsoft Edge */
-  font-family: 'Grenze', Arial, Helvetica, sans-serif;
-  font-size: 20px; }
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+  font-size: 20px; 
+color:black;
+}
 
 .fa-shopping-bag {
   font-size: 25px;
@@ -134,7 +143,7 @@ text {
   color: #0C0C0C; }
 
 h4 {
-  font-family: 'Grenze';
+  font-family: 'Montserrat';
   font-weight: bold; }
 
 .centered {
@@ -146,7 +155,7 @@ h4 {
 h1 {
   font-family: 'Vanity';
   font-weight: bold;
-  font-size: 200px;
+  font-size: 250px;
   color: black; }
 
 p {
@@ -174,12 +183,9 @@ img[alt="male model"]:hover {
   -moz-filter: grayscale(0%);
   filter: grayscale(0%); }
 
-.girl-bg {
-  background-color: #EEF4ED;
-  border-style: none; }
 
 h2 {
-  font-family: 'Grenze';
+  font-family: 'Montserrat';
   font-size: 60px;
   font-weight: bolder; }
 
@@ -219,13 +225,10 @@ h3:before {
  }
 
 
- .girl-bg {
- 	background-color: #EEF4ED
- 	border-style: none;
- }
+ 
 
  h2 {
- 	font-family: 'Grenze';
+ 	font-family: 'Montserrat';
  	font-size: 60px;
  	font-weight: bolder;
  }
@@ -238,11 +241,10 @@ h3:after {
   vertical-align: middle;
   margin-left: 20px; }
 
-.container-fluid {
-  overflow: hidden; }
+
 
 .navbar-brand {
-  font-family: 'VanityLight';
+  font-family: 'Lato';
   font-weight: bold;
   font-style: italic;
   font-size: 25px;
@@ -255,9 +257,11 @@ h3:after {
   background-color: black; }
 
 .navbar2-link {
-  color: grey;
-  font-size: 25px;
-  font-family: 'Grenze'; }
+  text-align: center;
+  color: lightgrey;
+  font-size: 22px;
+  font-family: 'Lato';
+  font-style: italic; }
 
 .navbar2-link:hover {
   text-decoration: none;
@@ -287,8 +291,7 @@ h3:after {
   border-radius: 0;
   border: none; }
 
-.selection-bg {
-  background-color: #f5cfc2; }
+
 
 .fall-down.words .char {
   animation: slide-down 1s forwards;
@@ -298,7 +301,7 @@ h3:after {
 
 @keyframes slide-down {
   from {
-    transform: translateY(-100%);
+    transform: translateY(-50%);
     opacity: 0; 
 
 	}
@@ -310,5 +313,38 @@ h3:after {
     } 
 }
 
+.container-fluid {
+	overflow: hidden;
+}
 
+.container {
+	overflow: hidden;
+	/*border: solid 2px black;*/
+}
 /*# sourceMappingURL=custom.css.map */
+
+.filtre {
+	border-bottom: 1px solid black;
+	border-radius: 0px;
+	font-family: 'Lato';
+}
+
+.girl-bg {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.form-control {
+	border-color: transparent;
+	background-color: transparent;
+	border-bottom: 1px solid black;
+	color: black;
+}
+
+.my-btn {
+	border: solid 1px black; 
+	height: 18px;
+	width: 18px;
+	top: 30%;
+	left: 104%;
+	position: absolute;
+}
